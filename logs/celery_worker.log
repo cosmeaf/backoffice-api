@@ -1,0 +1,62 @@
+[2025-05-22 21:12:39,910: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-22 21:12:39,942: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-22 21:12:40,975: INFO/MainProcess] mingle: all alone
+[2025-05-22 21:12:41,000: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-22 21:12:41,005: INFO/MainProcess] Task services.tasks.email_task.send_email_task[d1b5bfdc-7192-4b90-8029-b54fec0b4f99] received
+[2025-05-22 21:12:41,017: INFO/MainProcess] Task services.tasks.email_task.send_email_task[73510d5b-3455-46f9-82ef-0f60d9352d60] received
+[2025-05-22 21:12:43,797: INFO/ForkPoolWorker-3] Task services.tasks.email_task.send_email_task[73510d5b-3455-46f9-82ef-0f60d9352d60] succeeded in 2.7757776700891554s: None
+[2025-05-22 21:12:44,254: INFO/ForkPoolWorker-1] Task services.tasks.email_task.send_email_task[d1b5bfdc-7192-4b90-8029-b54fec0b4f99] succeeded in 3.2480281100142747s: None
+[2025-05-22 21:15:47,842: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-22 21:15:47,846: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-22 21:15:48,854: INFO/MainProcess] mingle: all alone
+[2025-05-22 21:15:48,870: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-22 21:17:27,093: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-22 21:17:27,100: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-22 21:17:28,113: INFO/MainProcess] mingle: all alone
+[2025-05-22 21:17:28,123: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-22 22:12:43,991: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-22 22:12:43,996: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-22 22:12:45,011: INFO/MainProcess] mingle: all alone
+[2025-05-22 22:12:45,030: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-22 22:15:49,613: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-22 22:15:49,619: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-22 22:15:50,633: INFO/MainProcess] mingle: all alone
+[2025-05-22 22:15:50,650: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-22 22:25:39,067: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-22 22:25:39,073: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-22 22:25:40,093: INFO/MainProcess] mingle: all alone
+[2025-05-22 22:25:40,135: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-22 22:34:25,415: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-22 22:34:25,418: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-22 22:34:26,429: INFO/MainProcess] mingle: all alone
+[2025-05-22 22:34:26,447: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-22 22:36:49,615: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-22 22:36:49,618: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-22 22:36:50,628: INFO/MainProcess] mingle: all alone
+[2025-05-22 22:36:50,641: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-23 04:00:00,560: INFO/MainProcess] Task celery.backend_cleanup[ffdcae87-94fd-4b00-a5f5-c5fb14cbb11a] received
+[2025-05-23 04:00:00,722: INFO/ForkPoolWorker-1] Task celery.backend_cleanup[ffdcae87-94fd-4b00-a5f5-c5fb14cbb11a] succeeded in 0.0471048578619957s: None
+[2025-05-23 18:03:02,185: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-23 18:03:02,218: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-23 18:03:03,253: INFO/MainProcess] mingle: all alone
+[2025-05-23 18:03:03,279: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-23 18:57:09,620: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-23 18:57:09,627: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-23 18:57:10,642: INFO/MainProcess] mingle: all alone
+[2025-05-23 18:57:10,709: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-23 19:28:23,782: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-23 19:28:23,786: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-23 19:28:24,798: INFO/MainProcess] mingle: all alone
+[2025-05-23 19:28:24,817: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-23 19:39:41,346: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-23 19:39:41,351: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-23 19:39:42,364: INFO/MainProcess] mingle: all alone
+[2025-05-23 19:39:42,380: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-23 20:10:55,451: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-23 20:10:55,455: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-23 20:10:56,467: INFO/MainProcess] mingle: all alone
+[2025-05-23 20:10:56,490: INFO/MainProcess] celery@srv640131 ready.
+[2025-05-23 20:25:01,745: INFO/MainProcess] Connected to redis://localhost:6379/0
+[2025-05-23 20:25:01,749: INFO/MainProcess] mingle: searching for neighbors
+[2025-05-23 20:25:02,773: INFO/MainProcess] mingle: all alone
+[2025-05-23 20:25:02,840: INFO/MainProcess] celery@srv640131 ready.

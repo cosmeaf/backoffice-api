@@ -1,0 +1,31 @@
+mkdir -p /opt/backoffice-api
+cd /opt/backoffice-api
+
+# Criar o ambiente virtual (opcional, mas recomendado)
+python3 -m venv venv
+source venv/bin/activate
+
+# Instalar Django e DRF
+pip install django djangorestframework djangorestframework-simplejwt drf-yasg celery redis django-cors-headers
+pip install django-decouple
+pip install wheel
+pip freeze > requirements.txt
+
+# Criar o projeto Django
+django-admin startproject core .
+
+# Criar a aplicação API
+python manage.py startapp authentication
+python manage.py startapp services
+python manage.py startapp seletivo
+
+# Criar um diretório para logs (opcional)
+mkdir logs
+
+#
+mkdir -p /var/www/backoffice-api/static/
+mkdir -p /var/www/backoffice-api/media/
+sudo chown -R www-data:www-data /var/www/backoffice-api/static/
+sudo chown -R www-data:www-data /var/www/backoffice-api/media/
+sudo chmod -R 755 /var/www/backoffice-api/static/
+sudo chmod -R 755 /var/www/backoffice-api/media/
