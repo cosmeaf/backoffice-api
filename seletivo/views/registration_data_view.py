@@ -4,6 +4,7 @@ from seletivo.serializers.registration_data_serializer import (
     RegistrationDataSerializer,
     RegistrationDataDetailSerializer
 )
+from django.contrib.auth.models import AnonymousUser
 
 class IsOwnerOrAdmin(permissions.BasePermission):
     def has_object_permission(self, request, view, obj):
@@ -14,6 +15,9 @@ class RegistrationDataViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         user = self.request.user
+        if isinstance(user, AnonymousUser):
+            # Return empty queryset for unauthenticated users (e.g., Swagger)
+            return self.queryset.none()
         if user.is_staff:
             return self.queryset.all()
         return self.queryset.filter(user_data__user=user)

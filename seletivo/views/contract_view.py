@@ -14,7 +14,10 @@ class ContractViewSet(viewsets.ModelViewSet):
         user = self.request.user
         if user.is_staff:
             return self.queryset.all()
-        return self.queryset.filter(user_data__user=user)
+        elif user.is_authenticated:
+            return self.queryset.filter(user_data__user=user)
+        else:
+            return self.queryset.none()  # Prevents AnonymousUser error
 
     def get_permissions(self):
         if self.action in ['list', 'create']:

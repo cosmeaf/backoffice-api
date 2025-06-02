@@ -2,6 +2,7 @@ from rest_framework import viewsets, permissions
 from django.contrib.auth.models import User
 from seletivo.models.address_model import Address
 from seletivo.serializers.address_serializer import AddressSerializer, AddressDetailSerializer
+from django.contrib.auth.models import AnonymousUser
 
 class IsOwnerOrAdmin(permissions.BasePermission):
     """
@@ -10,12 +11,13 @@ class IsOwnerOrAdmin(permissions.BasePermission):
     def has_object_permission(self, request, view, obj):
         return request.user.is_staff or obj.user == request.user
 
-
 class AddressViewSet(viewsets.ModelViewSet):
     queryset = Address.objects.all()
 
     def get_queryset(self):
         user = self.request.user
+        if isinstance(user, AnonymousUser):
+            return self.queryset.none()
         if user.is_staff:
             return self.queryset.all()
         return self.queryset.filter(user=user)
@@ -34,8 +36,6 @@ class AddressViewSet(viewsets.ModelViewSet):
 
     def perform_create(self, serializer):
         user = self.request.user
-
-        # Admin pode definir user por email, se enviado
         if user.is_staff and self.request.data.get('user'):
             serializer.save()
         else:

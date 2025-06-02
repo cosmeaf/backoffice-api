@@ -2,6 +2,8 @@ from rest_framework import viewsets, permissions
 from django.contrib.auth.models import User
 from seletivo.models.user_data_model import UserData
 from seletivo.serializers.user_data_serializer import UserDataSerializer, UserDataDetailSerializer
+import logging
+logger = logging.getLogger(__name__)
 
 class IsOwnerOrAdmin(permissions.BasePermission):
     """
@@ -15,9 +17,13 @@ class UserDataViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         user = self.request.user
+        logger.debug(f"User in get_queryset: {user}, is_authenticated: {user.is_authenticated}")
         if user.is_staff:
             return self.queryset.all()
-        return self.queryset.filter(user=user)
+        elif user.is_authenticated:
+            return self.queryset.filter(user=user)
+        else:
+            return self.queryset.none()
 
     def get_permissions(self):
         if self.action in ['list', 'create']:

@@ -10,7 +10,7 @@ from seletivo.serializers.exam_scheduled_serializer import (
     ExamHourDetailSerializer,
 )
 from seletivo.models.user_data_model import UserData
-
+from django.contrib.auth.models import AnonymousUser
 
 class PublicReadOnly(permissions.BasePermission):
     """
@@ -21,14 +21,12 @@ class PublicReadOnly(permissions.BasePermission):
             return True
         return request.user and request.user.is_authenticated
 
-
 class IsOwnerOrAdmin(permissions.BasePermission):
     """
     Permite acesso ao proprietário ou a um admin.
     """
     def has_object_permission(self, request, view, obj):
         return request.user.is_staff or obj.user_data.user == request.user
-
 
 # -------------------------------
 # VIEWSETS PARA LOCAIS, DATAS, HORAS
@@ -39,7 +37,6 @@ class ExamLocalViewSet(viewsets.ModelViewSet):
     serializer_class = ExamLocalSerializer
     permission_classes = [PublicReadOnly]
 
-
 class ExamDateViewSet(viewsets.ModelViewSet):
     queryset = ExamDate.objects.all()
     permission_classes = [PublicReadOnly]
@@ -48,7 +45,6 @@ class ExamDateViewSet(viewsets.ModelViewSet):
         if self.action in ['retrieve', 'list']:
             return ExamDateDetailSerializer
         return ExamDateSerializer
-
 
 class ExamHourViewSet(viewsets.ModelViewSet):
     queryset = ExamHour.objects.all()
@@ -59,7 +55,6 @@ class ExamHourViewSet(viewsets.ModelViewSet):
             return ExamHourDetailSerializer
         return ExamHourSerializer
 
-
 # -------------------------------
 # VIEWSET PARA EXAMES
 # -------------------------------
@@ -69,6 +64,9 @@ class ExamViewSet(viewsets.ModelViewSet):
 
     def get_queryset(self):
         user = self.request.user
+        if isinstance(user, AnonymousUser):
+            # Return empty queryset for unauthenticated users (e.g., Swagger)
+            return self.queryset.none()
         if user.is_staff:
             return self.queryset.all()
         return self.queryset.filter(user_data__user=user)

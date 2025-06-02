@@ -26,9 +26,12 @@ from seletivo.views.persona_view import PersonaViewSet
 from seletivo.views.guardian_view import GuardianViewSet
 from seletivo.views.contract_view import ContractViewSet
 from seletivo.views.registration_data_view import RegistrationDataViewSet
+from seletivo.views.verify_data_view import VerifyDataViewSet
 from seletivo.views.exam_scheduled_view import (
     ExamLocalViewSet, ExamDateViewSet, ExamHourViewSet, ExamViewSet
 )
+from enem.views import EnemResultViewSet
+
 
 # Swagger
 schema_view = get_schema_view(
@@ -65,7 +68,10 @@ router.register(r'exam-scheduling/exams', ExamViewSet, basename='exam')
 router.register(r'guardians', GuardianViewSet, basename='guardian')
 router.register(r'registration-data', RegistrationDataViewSet, basename='registration-data')
 router.register(r'contracts', ContractViewSet, basename='contract')
+router.register(r'verify-data/cpf', VerifyDataViewSet, basename='verify-data')
 
+# ROTSA do app enem
+router.register(r'enem', EnemResultViewSet, basename='enem')
 
 # URL patterns
 urlpatterns = [

@@ -41,6 +41,8 @@ INSTALLED_APPS = [
     'authentication',
     'services',
     'seletivo',
+    'enem',
+
 ]
 
 MIDDLEWARE = [
