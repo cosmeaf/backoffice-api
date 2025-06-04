@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'services',
     'seletivo',
     'enem',
-
+    'merito_academico',
 ]
 
 MIDDLEWARE = [
@@ -178,8 +178,13 @@ EMAIL_TIMEOUT = 30
 
 # Celery Configuration
 CELERY_BROKER_URL = 'redis://localhost:6379/0'
+CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
+CELERY_RESULT_SERIALIZER = 'json'
+CELERY_TIMEZONE = 'UTC'
+CELERY_RESULT_BACKEND_ALWAYS_RETRY = True
+CELERY_RESULT_BACKEND_MAX_RETRIES = 3
 
 # API Key
 API_KEY = config('API_KEY', default='your-secure-api-key')

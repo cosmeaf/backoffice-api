@@ -31,7 +31,7 @@ from seletivo.views.exam_scheduled_view import (
     ExamLocalViewSet, ExamDateViewSet, ExamHourViewSet, ExamViewSet
 )
 from enem.views import EnemResultViewSet
-
+from merito_academico.views import RecommendationLetterViewSet, AcademicMeritDocumentViewSet
 
 # Swagger
 schema_view = get_schema_view(
@@ -73,11 +73,15 @@ router.register(r'verify-data/cpf', VerifyDataViewSet, basename='verify-data')
 # ROTSA do app enem
 router.register(r'enem', EnemResultViewSet, basename='enem')
 
+# ROTAS MERITO ACADEMICO
+router.register(r'merito', RecommendationLetterViewSet, basename='merito')
+router.register(r'academic-merit/document', AcademicMeritDocumentViewSet, basename='academic-merit-document')
+
 # URL patterns
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', include(router.urls)),
-
+  
     path('auth/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('auth/verify/', TokenVerifyView.as_view(), name='token_verify'),
 
