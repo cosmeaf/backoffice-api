@@ -43,6 +43,8 @@ INSTALLED_APPS = [
     'seletivo',
     'enem',
     'merito_academico',
+    'candidate',
+    'user_profile',
 ]
 
 MIDDLEWARE = [

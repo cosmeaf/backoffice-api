@@ -4321,3 +4321,2287 @@ Not Found: /merito/generate-letter/
 [04/Jun/2025 20:36:40] "OPTIONS /personas/ HTTP/1.1" 200 0
 [04/Jun/2025 20:36:40] "GET /personas/ HTTP/1.1" 200 2
 [04/Jun/2025 20:36:40] "GET /personas/ HTTP/1.1" 200 2
+Iniciando geração do DOCX
+DOCX salvo: /var/www/backoffice-api/media/temp_0b418422-304e-4620-bbfe-68035773aac1.docx
+Iniciando conversão para PDF: /var/www/backoffice-api/media/temp_0b418422-304e-4620-bbfe-68035773aac1.docx
+Saída do LibreOffice: convert /var/www/backoffice-api/media/temp_0b418422-304e-4620-bbfe-68035773aac1.docx -> /var/www/backoffice-api/media/temp_0b418422-304e-4620-bbfe-68035773aac1.pdf using filter : writer_pdf_Export
+
+PDF renomeado: /var/www/backoffice-api/media/temp_0b418422-304e-4620-bbfe-68035773aac1.pdf -> /var/www/backoffice-api/media/recommendation_letter_86540496-5615-4dbd-b008-a668b838df07.pdf
+PDF gerado: /var/www/backoffice-api/media/recommendation_letter_86540496-5615-4dbd-b008-a668b838df07.pdf
+Arquivos temporários removidos: /var/www/backoffice-api/media/temp_0b418422-304e-4620-bbfe-68035773aac1.docx, /var/www/backoffice-api/media/recommendation_letter_86540496-5615-4dbd-b008-a668b838df07.pdf
+[04/Jun/2025 20:36:54] "POST /merito/generate-letter/ HTTP/1.1" 200 218564
+[04/Jun/2025 20:39:07] "POST /academic-merit/document/ HTTP/1.1" 201 376
+[04/Jun/2025 20:40:26] "GET /academic-merit/document/ HTTP/1.1" 200 743
+Documento 2 aprovado
+[04/Jun/2025 20:40:51] "POST /academic-merit/document/2/approve/ HTTP/1.1" 200 31
+[04/Jun/2025 20:40:58] "GET /academic-merit/document/ HTTP/1.1" 200 744
+Not Found: /.git/config
+Not Found: /.git/config
+[04/Jun/2025 21:16:25] "GET /.git/config HTTP/1.1" 404 19707
+Not Found: /archive.zip
+Not Found: /archive.zip
+[04/Jun/2025 21:20:00] "HEAD /archive.zip HTTP/1.1" 404 0
+Not Found: /Backup.zip
+Not Found: /Backup.zip
+[04/Jun/2025 21:20:00] "HEAD /Backup.zip HTTP/1.1" 404 0
+Not Found: /.git/config~
+Not Found: /.git/config~
+[04/Jun/2025 22:39:48] "GET /.git/config~ HTTP/1.1" 404 19710
+[04/Jun/2025 23:05:18] "GET / HTTP/1.1" 200 1105
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 04, 2025 - 20:32:30
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[05/Jun/2025 15:15:01] "OPTIONS /auth/login/ HTTP/1.1" 200 0
+[05/Jun/2025 15:15:02] "POST /auth/login/ HTTP/1.1" 200 582
+[05/Jun/2025 15:15:22] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 15:15:22] "GET /swagger/?format=openapi HTTP/1.1" 200 46612
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 15:15:23] "GET /swagger/?format=openapi HTTP/1.1" 200 46612
+Not Found: /user/signIn
+Not Found: /user/signIn
+[05/Jun/2025 15:15:46] "POST /user/signIn HTTP/1.1" 404 19723
+[05/Jun/2025 15:16:42] "OPTIONS /exam-scheduling/exams/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:42] "OPTIONS /exam-scheduling/exams/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:42] "OPTIONS /exam-scheduling/exams/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:42] "OPTIONS /exam-scheduling/exams/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:42] "GET /exam-scheduling/exams/ HTTP/1.1" 200 2430
+[05/Jun/2025 15:16:42] "GET /exam-scheduling/exams/ HTTP/1.1" 200 2430
+[05/Jun/2025 15:16:42] "GET /exam-scheduling/exams/ HTTP/1.1" 200 2430
+[05/Jun/2025 15:16:43] "GET /exam-scheduling/exams/ HTTP/1.1" 200 2430
+[05/Jun/2025 15:16:43] "GET /exam-scheduling/exams/ HTTP/1.1" 200 2430
+[05/Jun/2025 15:16:46] "OPTIONS /user-data/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /addresses/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /guardians/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /addresses/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /user-data/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /addresses/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /user-data/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /registration-data/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /user-data/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /registration-data/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /guardians/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /registration-data/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /registration-data/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "OPTIONS /guardians/ HTTP/1.1" 200 0
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 15:16:46] "OPTIONS /addresses/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "GET /addresses/ HTTP/1.1" 200 1137
+[05/Jun/2025 15:16:46] "OPTIONS /guardians/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:46] "GET /guardians/ HTTP/1.1" 200 492
+[05/Jun/2025 15:16:46] "GET /registration-data/ HTTP/1.1" 200 1055
+[05/Jun/2025 15:16:46] "GET /user-data/ HTTP/1.1" 200 2912
+[05/Jun/2025 15:16:46] "GET /addresses/ HTTP/1.1" 200 1137
+[05/Jun/2025 15:16:46] "GET /personas/ HTTP/1.1" 200 4475
+[05/Jun/2025 15:16:46] "GET /guardians/ HTTP/1.1" 200 492
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 15:16:46] "GET /registration-data/ HTTP/1.1" 200 1055
+[05/Jun/2025 15:16:46] "GET /addresses/ HTTP/1.1" 200 1137
+[05/Jun/2025 15:16:46] "GET /user-data/ HTTP/1.1" 200 2912
+[05/Jun/2025 15:16:46] "GET /guardians/ HTTP/1.1" 200 492
+[05/Jun/2025 15:16:46] "GET /registration-data/ HTTP/1.1" 200 1055
+[05/Jun/2025 15:16:46] "GET /addresses/ HTTP/1.1" 200 1137
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 15:16:46] "GET /personas/ HTTP/1.1" 200 4475
+[05/Jun/2025 15:16:46] "GET /guardians/ HTTP/1.1" 200 492
+[05/Jun/2025 15:16:46] "GET /user-data/ HTTP/1.1" 200 2912
+[05/Jun/2025 15:16:46] "GET /registration-data/ HTTP/1.1" 200 1055
+[05/Jun/2025 15:16:46] "GET /personas/ HTTP/1.1" 200 4475
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 15:16:47] "GET /user-data/ HTTP/1.1" 200 2912
+[05/Jun/2025 15:16:47] "GET /personas/ HTTP/1.1" 200 4475
+[05/Jun/2025 15:16:50] "OPTIONS /allowed-cities/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:50] "OPTIONS /allowed-cities/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:50] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 15:16:50] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 15:16:53] "GET /exam-scheduling/exams/ HTTP/1.1" 200 2430
+[05/Jun/2025 15:16:53] "GET /exam-scheduling/exams/ HTTP/1.1" 200 2430
+[05/Jun/2025 15:16:53] "GET /exam-scheduling/exams/ HTTP/1.1" 200 2430
+[05/Jun/2025 15:16:54] "GET /exam-scheduling/exams/ HTTP/1.1" 200 2430
+[05/Jun/2025 15:16:58] "OPTIONS /contracts/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:58] "OPTIONS /contracts/ HTTP/1.1" 200 0
+[05/Jun/2025 15:16:58] "GET /contracts/ HTTP/1.1" 200 3110
+[05/Jun/2025 15:16:58] "GET /contracts/ HTTP/1.1" 200 3110
+Not Found: /user/signIn
+Not Found: /user/signIn
+[05/Jun/2025 15:17:00] "POST /user/signIn HTTP/1.1" 404 19723
+[05/Jun/2025 15:17:00] "OPTIONS /exam-scheduling/dates/ HTTP/1.1" 200 0
+[05/Jun/2025 15:17:00] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 15:17:00] "OPTIONS /exam-scheduling/locals/ HTTP/1.1" 200 0
+[05/Jun/2025 15:17:00] "OPTIONS /exam-scheduling/hours/ HTTP/1.1" 200 0
+[05/Jun/2025 15:17:00] "OPTIONS /exam-scheduling/hours/ HTTP/1.1" 200 0
+[05/Jun/2025 15:17:00] "OPTIONS /exam-scheduling/dates/ HTTP/1.1" 200 0
+[05/Jun/2025 15:17:00] "OPTIONS /exam-scheduling/locals/ HTTP/1.1" 200 0
+[05/Jun/2025 15:17:00] "GET /exam-scheduling/dates/ HTTP/1.1" 200 468
+[05/Jun/2025 15:17:00] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 15:17:00] "GET /exam-scheduling/hours/ HTTP/1.1" 200 585
+[05/Jun/2025 15:17:00] "GET /exam-scheduling/locals/ HTTP/1.1" 200 238
+[05/Jun/2025 15:17:00] "GET /exam-scheduling/dates/ HTTP/1.1" 200 468
+[05/Jun/2025 15:17:00] "GET /exam-scheduling/hours/ HTTP/1.1" 200 585
+[05/Jun/2025 15:17:00] "GET /exam-scheduling/locals/ HTTP/1.1" 200 238
+Bad Request: /auth/login/
+Bad Request: /auth/login/
+[05/Jun/2025 15:18:49] "POST /auth/login/ HTTP/1.1" 400 76
+Bad Request: /auth/login/
+Bad Request: /auth/login/
+[05/Jun/2025 15:22:02] "POST /auth/login/ HTTP/1.1" 400 48
+[05/Jun/2025 15:25:30] "GET / HTTP/1.1" 200 8564
+[05/Jun/2025 15:25:31] "GET /admin HTTP/1.1" 301 0
+[05/Jun/2025 15:25:31] "GET /admin/ HTTP/1.1" 200 14449
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+[05/Jun/2025 15:25:32] "GET /favicon.ico HTTP/1.1" 404 19722
+[05/Jun/2025 15:25:33] "GET /admin/auth/group/ HTTP/1.1" 200 13411
+[05/Jun/2025 15:25:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 15:25:34] "GET /admin/auth/user/ HTTP/1.1" 200 20463
+[05/Jun/2025 15:25:34] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 15:25:37] "GET /admin/auth/user/add/ HTTP/1.1" 200 16971
+[05/Jun/2025 15:25:37] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 15:25:48] "POST /admin/auth/user/add/ HTTP/1.1" 302 0
+[05/Jun/2025 15:25:48] "GET /admin/auth/user/19/change/ HTTP/1.1" 200 31756
+[05/Jun/2025 15:25:48] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 15:25:54] "POST /admin/auth/user/19/change/ HTTP/1.1" 302 0
+[05/Jun/2025 15:25:54] "GET /admin/auth/user/ HTTP/1.1" 200 21162
+[05/Jun/2025 15:25:54] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 15:26:12] "POST /auth/login/ HTTP/1.1" 200 584
+[05/Jun/2025 15:26:12] "POST /auth/verify/ HTTP/1.1" 200 2
+[05/Jun/2025 15:26:13] "GET /contracts/ HTTP/1.1" 200 3110
+[05/Jun/2025 15:26:13] "POST /auth/login/ HTTP/1.1" 200 584
+[05/Jun/2025 15:27:57] "OPTIONS /allowed-cities/ HTTP/1.1" 200 0
+[05/Jun/2025 15:27:57] "OPTIONS /allowed-cities/ HTTP/1.1" 200 0
+[05/Jun/2025 15:27:57] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 15:27:57] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 15:28:34] "OPTIONS /auth/register/ HTTP/1.1" 200 0
+[05/Jun/2025 15:28:35] "POST /auth/register/ HTTP/1.1" 201 93
+[05/Jun/2025 15:28:35] "OPTIONS /auth/login/ HTTP/1.1" 200 0
+[05/Jun/2025 15:28:35] "POST /auth/login/ HTTP/1.1" 200 601
+[05/Jun/2025 15:28:35] "OPTIONS /user-data/ HTTP/1.1" 200 0
+[05/Jun/2025 15:28:35] "POST /user-data/ HTTP/1.1" 201 356
+[05/Jun/2025 15:29:14] "POST /auth/login/ HTTP/1.1" 200 601
+[05/Jun/2025 15:29:14] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 15:29:14] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 15:29:14] "GET /personas/ HTTP/1.1" 200 2
+[05/Jun/2025 15:29:15] "GET /personas/ HTTP/1.1" 200 2
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:29:23] "GET /user-data/ HTTP/1.1" 200 358
+[05/Jun/2025 15:29:23] "POST /personas/ HTTP/1.1" 201 676
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:29:26] "GET /user-data/ HTTP/1.1" 200 358
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:29:26] "OPTIONS /exam-scheduling/hours/ HTTP/1.1" 200 0
+[05/Jun/2025 15:29:26] "GET /user-data/ HTTP/1.1" 200 358
+[05/Jun/2025 15:29:26] "GET /exam-scheduling/hours/ HTTP/1.1" 200 585
+[05/Jun/2025 15:29:26] "GET /exam-scheduling/hours/ HTTP/1.1" 200 585
+[05/Jun/2025 15:29:47] "OPTIONS /exam-scheduling/exams/ HTTP/1.1" 200 0
+[05/Jun/2025 15:29:47] "POST /exam-scheduling/exams/ HTTP/1.1" 201 630
+[05/Jun/2025 15:29:51] "GET /personas/ HTTP/1.1" 200 678
+[05/Jun/2025 15:29:52] "GET /personas/ HTTP/1.1" 200 678
+[05/Jun/2025 15:29:52] "GET /exam-scheduling/exams/ HTTP/1.1" 200 632
+[05/Jun/2025 15:29:52] "OPTIONS /enem/ HTTP/1.1" 200 0
+[05/Jun/2025 15:29:52] "GET /exam-scheduling/exams/ HTTP/1.1" 200 632
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:29:52] "GET /enem/ HTTP/1.1" 200 2
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:29:52] "OPTIONS /addresses/ HTTP/1.1" 200 0
+[05/Jun/2025 15:29:52] "GET /enem/ HTTP/1.1" 200 2
+[05/Jun/2025 15:29:52] "GET /addresses/ HTTP/1.1" 200 2
+[05/Jun/2025 15:29:52] "GET /addresses/ HTTP/1.1" 200 2
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:29:52] "GET /enem/ HTTP/1.1" 200 2
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:29:52] "GET /enem/ HTTP/1.1" 200 2
+[05/Jun/2025 15:29:52] "GET /exam-scheduling/exams/ HTTP/1.1" 200 632
+[05/Jun/2025 15:29:52] "GET /exam-scheduling/exams/ HTTP/1.1" 200 632
+[05/Jun/2025 15:30:00] "OPTIONS /auth/login/ HTTP/1.1" 200 0
+[05/Jun/2025 15:30:00] "POST /auth/login/ HTTP/1.1" 200 601
+[05/Jun/2025 15:30:00] "OPTIONS /user-data/ HTTP/1.1" 200 0
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:30:00] "GET /user-data/ HTTP/1.1" 200 358
+[05/Jun/2025 15:31:46] "OPTIONS /auth/refresh/ HTTP/1.1" 200 0
+[05/Jun/2025 15:31:46] "POST /auth/refresh/ HTTP/1.1" 200 486
+[05/Jun/2025 15:31:46] "OPTIONS /exam-scheduling/exams/ HTTP/1.1" 200 0
+[05/Jun/2025 15:31:46] "GET /exam-scheduling/exams/ HTTP/1.1" 200 632
+[05/Jun/2025 15:31:46] "OPTIONS /exam-scheduling/exams/8/ HTTP/1.1" 200 0
+[05/Jun/2025 15:31:46] "PATCH /exam-scheduling/exams/8/ HTTP/1.1" 200 632
+[05/Jun/2025 15:31:55] "GET /exam-scheduling/exams/ HTTP/1.1" 200 3063
+[05/Jun/2025 15:31:55] "GET /exam-scheduling/exams/ HTTP/1.1" 200 3063
+[05/Jun/2025 15:31:55] "GET /exam-scheduling/exams/ HTTP/1.1" 200 3063
+[05/Jun/2025 15:31:55] "GET /exam-scheduling/exams/ HTTP/1.1" 200 3063
+[05/Jun/2025 15:31:55] "GET /exam-scheduling/exams/ HTTP/1.1" 200 3063
+[05/Jun/2025 15:31:57] "GET /exam-scheduling/exams/ HTTP/1.1" 200 3063
+[05/Jun/2025 15:31:57] "GET /exam-scheduling/exams/ HTTP/1.1" 200 3063
+[05/Jun/2025 15:31:57] "GET /exam-scheduling/exams/ HTTP/1.1" 200 3063
+[05/Jun/2025 15:31:57] "GET /exam-scheduling/exams/ HTTP/1.1" 200 3063
+[05/Jun/2025 15:32:01] "OPTIONS /exam-scheduling/exams/3/ HTTP/1.1" 200 0
+[05/Jun/2025 15:32:01] "PATCH /exam-scheduling/exams/3/ HTTP/1.1" 200 608
+[05/Jun/2025 15:32:02] "OPTIONS /exam-scheduling/exams/5/ HTTP/1.1" 200 0
+[05/Jun/2025 15:32:02] "PATCH /exam-scheduling/exams/5/ HTTP/1.1" 200 598
+[05/Jun/2025 15:32:03] "OPTIONS /exam-scheduling/exams/6/ HTTP/1.1" 200 0
+[05/Jun/2025 15:32:03] "PATCH /exam-scheduling/exams/6/ HTTP/1.1" 200 591
+[05/Jun/2025 15:32:03] "OPTIONS /exam-scheduling/exams/7/ HTTP/1.1" 200 0
+[05/Jun/2025 15:32:03] "PATCH /exam-scheduling/exams/7/ HTTP/1.1" 200 628
+[05/Jun/2025 15:32:04] "OPTIONS /exam-scheduling/exams/8/ HTTP/1.1" 200 0
+[05/Jun/2025 15:32:04] "PATCH /exam-scheduling/exams/8/ HTTP/1.1" 200 635
+[05/Jun/2025 15:32:05] "GET /exam-scheduling/exams/ HTTP/1.1" 200 3066
+[05/Jun/2025 15:32:10] "GET /personas/ HTTP/1.1" 200 678
+[05/Jun/2025 15:32:10] "GET /personas/ HTTP/1.1" 200 678
+[05/Jun/2025 15:32:10] "GET /exam-scheduling/exams/ HTTP/1.1" 200 637
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:10] "GET /exam-scheduling/exams/ HTTP/1.1" 200 637
+[05/Jun/2025 15:32:10] "GET /enem/ HTTP/1.1" 200 2
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:10] "GET /enem/ HTTP/1.1" 200 2
+[05/Jun/2025 15:32:10] "GET /addresses/ HTTP/1.1" 200 2
+[05/Jun/2025 15:32:10] "GET /addresses/ HTTP/1.1" 200 2
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:10] "GET /enem/ HTTP/1.1" 200 2
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:10] "GET /enem/ HTTP/1.1" 200 2
+[05/Jun/2025 15:32:10] "GET /exam-scheduling/exams/ HTTP/1.1" 200 637
+[05/Jun/2025 15:32:10] "GET /exam-scheduling/exams/ HTTP/1.1" 200 637
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:17] "GET /user-data/ HTTP/1.1" 200 358
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:17] "GET /user-data/ HTTP/1.1" 200 358
+[05/Jun/2025 15:32:17] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 15:32:17] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 15:32:24] "POST /addresses/ HTTP/1.1" 201 390
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:24] "GET /user-data/ HTTP/1.1" 200 358
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:24] "GET /user-data/ HTTP/1.1" 200 358
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:24] "GET /user-data/ HTTP/1.1" 200 358
+[05/Jun/2025 15:32:44] "OPTIONS /guardians/ HTTP/1.1" 200 0
+[05/Jun/2025 15:32:45] "POST /guardians/ HTTP/1.1" 201 536
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:45] "GET /user-data/ HTTP/1.1" 200 358
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:32:45] "GET /user-data/ HTTP/1.1" 200 358
+[05/Jun/2025 15:33:01] "OPTIONS /registration-data/ HTTP/1.1" 200 0
+[05/Jun/2025 15:33:01] "POST /registration-data/ HTTP/1.1" 201 554
+[05/Jun/2025 15:33:01] "OPTIONS /contracts/ HTTP/1.1" 200 0
+[05/Jun/2025 15:33:01] "OPTIONS /contracts/ HTTP/1.1" 200 0
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:33:02] "GET /user-data/ HTTP/1.1" 200 358
+[05/Jun/2025 15:33:02] "GET /contracts/ HTTP/1.1" 200 2
+User in get_queryset: fernandaoliv.8272@gmail.com, is_authenticated: True
+[05/Jun/2025 15:33:02] "GET /user-data/ HTTP/1.1" 200 358
+[05/Jun/2025 15:33:02] "GET /contracts/ HTTP/1.1" 200 2
+Bad Request: /contracts/
+Bad Request: /contracts/
+[05/Jun/2025 15:33:02] "POST /contracts/ HTTP/1.1" 400 45
+[05/Jun/2025 15:33:02] "GET /contracts/ HTTP/1.1" 200 2
+Bad Request: /contracts/
+Bad Request: /contracts/
+[05/Jun/2025 15:33:02] "POST /contracts/ HTTP/1.1" 400 45
+[05/Jun/2025 15:33:02] "POST /contracts/ HTTP/1.1" 201 1928
+Not Found: /webclient/
+Not Found: /webclient/
+[05/Jun/2025 15:38:04] "GET /webclient/ HTTP/1.1" 404 19704
+[05/Jun/2025 16:03:17] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 16:03:18] "GET /swagger/?format=openapi HTTP/1.1" 200 46612
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 16:03:18] "GET /swagger/?format=openapi HTTP/1.1" 200 46612
+[05/Jun/2025 16:24:51] "POST /auth/login/ HTTP/1.1" 200 584
+/opt/backoffice-api/core/urls.py changed, reloading.
+/opt/backoffice-api/core/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 15:14:48
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/management/base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/backoffice-api/core/urls.py", line 35, in <module>
+    from candidate.views.candidate_document_view import CandidateDocumentViewSet
+  File "/opt/backoffice-api/candidate/views/candidate_document_view.py", line 4, in <module>
+    from candidate.models.candidate_document_model import CandidateDocument
+  File "/opt/backoffice-api/candidate/models/candidate_document_model.py", line 13, in <module>
+    class CandidateDocument(models.Model):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/db/models/base.py", line 134, in __new__
+    raise RuntimeError(
+RuntimeError: Model class candidate.models.candidate_document_model.CandidateDocument doesn't declare an explicit app_label and isn't in an application in INSTALLED_APPS.
+/opt/backoffice-api/core/settings.py changed, reloading.
+/opt/backoffice-api/core/settings.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/management/base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/backoffice-api/core/urls.py", line 35, in <module>
+    from candidate.views.candidate_document_view import CandidateDocumentViewSet
+  File "/opt/backoffice-api/candidate/views/candidate_document_view.py", line 9, in <module>
+    from core.permissions import IsOwnerOrAdmin  # padrão já usado
+ModuleNotFoundError: No module named 'core.permissions'
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:35:59
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/models/candidate_document_model.py changed, reloading.
+/opt/backoffice-api/candidate/models/candidate_document_model.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:36:35
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Not Found: /.env
+Not Found: /.env
+[05/Jun/2025 16:38:15] "GET /.env HTTP/1.1" 404 23
+Not Found: /.git/config
+Not Found: /.git/config
+[05/Jun/2025 16:38:16] "GET /.git/config HTTP/1.1" 404 20621
+/opt/backoffice-api/candidate/serializers/candidate_document_serializer.py changed, reloading.
+/opt/backoffice-api/candidate/serializers/candidate_document_serializer.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:38:05
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:38:44
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:38:55
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/serializers/candidate_document_serializer.py changed, reloading.
+/opt/backoffice-api/candidate/serializers/candidate_document_serializer.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:39:07
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[05/Jun/2025 16:40:12] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 16:40:12] "GET /swagger/?format=openapi HTTP/1.1" 200 52155
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:40:04
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/management/base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/backoffice-api/core/urls.py", line 35, in <module>
+    from candidate.views.candidate_document_view import CandidateDocumentViewSet
+  File "/opt/backoffice-api/candidate/views/candidate_document_view.py", line 68
+    403: openapi.Response("Forbidden", examples={"application/json": {"detail": "You do not have permission toを超1
+                                                                                                                 ^
+SyntaxError: EOL while scanning string literal
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Exception in thread django-main-thread:
+Traceback (most recent call last):
+  File "/usr/lib/python3.8/threading.py", line 932, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.8/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/autoreload.py", line 64, in wrapper
+    fn(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/management/commands/runserver.py", line 133, in inner_run
+    self.check(display_num_errors=True)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/management/base.py", line 485, in check
+    all_issues = checks.run_checks(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/registry.py", line 88, in run_checks
+    new_errors = check(app_configs=app_configs, databases=databases)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/urls.py", line 14, in check_url_config
+    return check_resolver(resolver)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/checks/urls.py", line 24, in check_resolver
+    return check_method()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 494, in check
+    for pattern in self.url_patterns:
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 715, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/utils/functional.py", line 57, in __get__
+    res = instance.__dict__[self.name] = self.func(instance)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/urls/resolvers.py", line 708, in urlconf_module
+    return import_module(self.urlconf_name)
+  File "/usr/lib/python3.8/importlib/__init__.py", line 127, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1014, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 991, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 975, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 671, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 848, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/opt/backoffice-api/core/urls.py", line 35, in <module>
+    from candidate.views.candidate_document_view import CandidateDocumentViewSet
+  File "/opt/backoffice-api/candidate/views/candidate_document_view.py", line 68
+    403: openapi.Response("Forbidden", examples={"application/json": {"detail": "You do not have permission toを超1
+                                                                                                                 ^
+SyntaxError: EOL while scanning string literal
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:40:51
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:41:29
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/models/candidate_document_model.py changed, reloading.
+/opt/backoffice-api/candidate/models/candidate_document_model.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:41:50
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/serializers/candidate_document_serializer.py changed, reloading.
+/opt/backoffice-api/candidate/serializers/candidate_document_serializer.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:42:25
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:42:39
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:43:07
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/models/candidate_document_model.py changed, reloading.
+/opt/backoffice-api/candidate/models/candidate_document_model.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:43:41
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/serializers/candidate_document_serializer.py changed, reloading.
+/opt/backoffice-api/candidate/serializers/candidate_document_serializer.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:47:08
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:47:28
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[05/Jun/2025 16:48:31] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 16:48:31] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 16:48:49] "POST /auth/login/ HTTP/1.1" 200 590
+[05/Jun/2025 16:48:49] "GET /personas/ HTTP/1.1" 200 658
+[05/Jun/2025 16:48:49] "GET /personas/ HTTP/1.1" 200 658
+[05/Jun/2025 16:48:49] "GET /exam-scheduling/exams/ HTTP/1.1" 200 610
+[05/Jun/2025 16:48:49] "GET /exam-scheduling/exams/ HTTP/1.1" 200 610
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+[05/Jun/2025 16:48:49] "GET /enem/ HTTP/1.1" 200 2
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+[05/Jun/2025 16:48:49] "GET /enem/ HTTP/1.1" 200 2
+[05/Jun/2025 16:48:49] "GET /addresses/ HTTP/1.1" 200 374
+[05/Jun/2025 16:48:49] "GET /addresses/ HTTP/1.1" 200 374
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+[05/Jun/2025 16:48:49] "GET /user-data/ HTTP/1.1" 200 331
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+[05/Jun/2025 16:48:49] "GET /user-data/ HTTP/1.1" 200 331
+[05/Jun/2025 16:48:49] "GET /guardians/ HTTP/1.1" 200 492
+[05/Jun/2025 16:48:49] "GET /guardians/ HTTP/1.1" 200 492
+[05/Jun/2025 16:48:49] "GET /registration-data/ HTTP/1.1" 200 537
+[05/Jun/2025 16:48:49] "GET /registration-data/ HTTP/1.1" 200 537
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+[05/Jun/2025 16:48:49] "GET /user-data/ HTTP/1.1" 200 331
+[05/Jun/2025 16:48:49] "GET /contracts/ HTTP/1.1" 200 1820
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+[05/Jun/2025 16:48:49] "GET /user-data/ HTTP/1.1" 200 331
+[05/Jun/2025 16:48:49] "GET /contracts/ HTTP/1.1" 200 1820
+[05/Jun/2025 16:48:49] "GET /contracts/ HTTP/1.1" 200 1820
+[05/Jun/2025 16:49:14] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 16:49:14] "GET /swagger/?format=openapi HTTP/1.1" 200 57327
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 16:49:15] "GET /swagger/?format=openapi HTTP/1.1" 200 57327
+User fernando@ptec.dev is creating a candidate document
+[05/Jun/2025 16:49:50] "POST /candidate-documents/ HTTP/1.1" 201 406
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+User fernando@ptec.dev uploaded id_doc for candidate document 1
+[05/Jun/2025 16:53:09] "POST /candidate-documents/1/id-doc/ HTTP/1.1" 200 778
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+User fernando@ptec.dev uploaded school_history_doc for candidate document 1
+[05/Jun/2025 16:53:59] "POST /candidate-documents/1/school-history-doc/ HTTP/1.1" 200 846
+Not Found: /candidate-documents/1/contract_doc/
+Not Found: /candidate-documents/1/contract_doc/
+[05/Jun/2025 16:54:30] "POST /candidate-documents/1/contract_doc/ HTTP/1.1" 404 22833
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+User fernando@ptec.dev uploaded contract_doc for candidate document 1
+[05/Jun/2025 16:54:37] "POST /candidate-documents/1/contract-doc/ HTTP/1.1" 200 902
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+User fernando@ptec.dev uploaded address_doc for candidate document 1
+[05/Jun/2025 16:55:07] "POST /candidate-documents/1/address-doc/ HTTP/1.1" 200 956
+User in get_queryset: fernando@ptec.dev, is_authenticated: True
+[05/Jun/2025 16:55:15] "GET /candidate-documents/ HTTP/1.1" 200 778
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+/opt/backoffice-api/candidate/views/candidate_document_view.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 16:48:08
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/core/settings.py changed, reloading.
+/opt/backoffice-api/core/settings.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:19:11
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/user_profile/models.py changed, reloading.
+/opt/backoffice-api/user_profile/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:19:30
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[05/Jun/2025 17:20:12] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 17:20:13] "GET /swagger/?format=openapi HTTP/1.1" 200 57327
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 17:20:14] "GET /swagger/?format=openapi HTTP/1.1" 200 57327
+[05/Jun/2025 17:20:32] "GET /allowed-cities/ HTTP/1.1" 200 57
+[05/Jun/2025 17:20:32] "GET /allowed-cities/ HTTP/1.1" 200 57
+/opt/backoffice-api/core/urls.py changed, reloading.
+/opt/backoffice-api/core/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:19:42
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/core/urls.py changed, reloading.
+/opt/backoffice-api/core/urls.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:20:34
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[05/Jun/2025 17:21:09] "POST /auth/register/ HTTP/1.1" 201 85
+[05/Jun/2025 17:21:09] "POST /auth/login/ HTTP/1.1" 200 593
+[05/Jun/2025 17:21:09] "POST /user-data/ HTTP/1.1" 201 317
+[05/Jun/2025 17:21:20] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 17:21:20] "GET /swagger/?format=openapi HTTP/1.1" 200 62277
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 17:21:21] "GET /swagger/?format=openapi HTTP/1.1" 200 62277
+[05/Jun/2025 17:21:54] "GET / HTTP/1.1" 200 8937
+Unauthorized: /user-profile/
+Unauthorized: /user-profile/
+[05/Jun/2025 17:24:08] "POST /user-profile/ HTTP/1.1" 401 183
+[05/Jun/2025 17:24:14] "OPTIONS /addresses/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /guardians/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /registration-data/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /addresses/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /user-data/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /registration-data/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /registration-data/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /addresses/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /guardians/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /user-data/ HTTP/1.1" 200 0
+Unauthorized: /addresses/
+[05/Jun/2025 17:24:14] "OPTIONS /user-data/ HTTP/1.1" 200 0
+Unauthorized: /addresses/
+[05/Jun/2025 17:24:14] "OPTIONS /user-data/ HTTP/1.1" 200 0
+Unauthorized: /guardians/
+Unauthorized: /guardians/
+Unauthorized: /personas/
+Unauthorized: /personas/
+[05/Jun/2025 17:24:14] "OPTIONS /registration-data/ HTTP/1.1" 200 0
+Unauthorized: /registration-data/
+Unauthorized: /registration-data/
+[05/Jun/2025 17:24:14] "OPTIONS /guardians/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "GET /addresses/ HTTP/1.1" 401 183
+[05/Jun/2025 17:24:14] "GET /guardians/ HTTP/1.1" 401 183
+[05/Jun/2025 17:24:14] "GET /personas/ HTTP/1.1" 401 183
+[05/Jun/2025 17:24:14] "GET /registration-data/ HTTP/1.1" 401 183
+Unauthorized: /user-data/
+Unauthorized: /user-data/
+[05/Jun/2025 17:24:14] "GET /user-data/ HTTP/1.1" 401 183
+Unauthorized: /addresses/
+Unauthorized: /addresses/
+[05/Jun/2025 17:24:14] "GET /addresses/ HTTP/1.1" 401 183
+Unauthorized: /guardians/
+Unauthorized: /guardians/
+[05/Jun/2025 17:24:14] "GET /guardians/ HTTP/1.1" 401 183
+Unauthorized: /registration-data/
+Unauthorized: /registration-data/
+[05/Jun/2025 17:24:14] "OPTIONS /auth/refresh/ HTTP/1.1" 200 0
+Unauthorized: /personas/
+Unauthorized: /personas/
+[05/Jun/2025 17:24:14] "GET /personas/ HTTP/1.1" 401 183
+[05/Jun/2025 17:24:14] "OPTIONS /auth/refresh/ HTTP/1.1" 200 0
+Unauthorized: /user-data/
+Unauthorized: /user-data/
+[05/Jun/2025 17:24:14] "GET /registration-data/ HTTP/1.1" 401 183
+[05/Jun/2025 17:24:14] "GET /user-data/ HTTP/1.1" 401 183
+[05/Jun/2025 17:24:14] "OPTIONS /auth/refresh/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /auth/refresh/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:14] "OPTIONS /auth/refresh/ HTTP/1.1" 200 0
+Unauthorized: /guardians/
+Unauthorized: /guardians/
+[05/Jun/2025 17:24:14] "GET /guardians/ HTTP/1.1" 401 183
+Unauthorized: /addresses/
+Unauthorized: /addresses/
+[05/Jun/2025 17:24:14] "GET /addresses/ HTTP/1.1" 401 183
+Unauthorized: /user-data/
+Unauthorized: /user-data/
+Unauthorized: /registration-data/
+Unauthorized: /registration-data/
+[05/Jun/2025 17:24:14] "GET /user-data/ HTTP/1.1" 401 183
+[05/Jun/2025 17:24:14] "GET /registration-data/ HTTP/1.1" 401 183
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 401 58
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 200 483
+Unauthorized: /user-data/
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 200 483
+Unauthorized: /auth/refresh/
+Unauthorized: /user-data/
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 200 483
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 401 58
+Unauthorized: /auth/refresh/
+Unauthorized: /registration-data/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 200 483
+Unauthorized: /registration-data/
+[05/Jun/2025 17:24:14] "GET /user-data/ HTTP/1.1" 401 183
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 200 483
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 200 483
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 401 58
+Unauthorized: /auth/refresh/
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 401 58
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 401 58
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:14] "GET /registration-data/ HTTP/1.1" 401 183
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 401 58
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 401 58
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 401 58
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 401 58
+[05/Jun/2025 17:24:14] "GET /guardians/ HTTP/1.1" 200 1029
+[05/Jun/2025 17:24:14] "GET /addresses/ HTTP/1.1" 200 1528
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 200 483
+[05/Jun/2025 17:24:14] "POST /auth/refresh/ HTTP/1.1" 200 483
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:15] "GET /addresses/ HTTP/1.1" 200 1528
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 401 58
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 401 58
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+[05/Jun/2025 17:24:15] "GET /guardians/ HTTP/1.1" 200 1029
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 401 58
+[05/Jun/2025 17:24:15] "GET /registration-data/ HTTP/1.1" 200 1610
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+[05/Jun/2025 17:24:15] "GET /user-data/ HTTP/1.1" 200 3587
+[05/Jun/2025 17:24:15] "GET /personas/ HTTP/1.1" 200 5152
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 17:24:15] "GET /user-data/ HTTP/1.1" 200 3587
+[05/Jun/2025 17:24:15] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:15] "OPTIONS /guardians/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:15] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 17:24:15] "OPTIONS /addresses/ HTTP/1.1" 200 0
+Unauthorized: /addresses/
+Unauthorized: /addresses/
+Unauthorized: /personas/
+[05/Jun/2025 17:24:15] "GET /addresses/ HTTP/1.1" 401 183
+Unauthorized: /personas/
+Unauthorized: /guardians/
+[05/Jun/2025 17:24:15] "GET /personas/ HTTP/1.1" 401 183
+Unauthorized: /guardians/
+[05/Jun/2025 17:24:15] "GET /guardians/ HTTP/1.1" 401 183
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 401 58
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 401 58
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 401 58
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 401 58
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 401 58
+Unauthorized: /personas/
+Unauthorized: /personas/
+[05/Jun/2025 17:24:15] "GET /personas/ HTTP/1.1" 401 183
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 401 58
+[05/Jun/2025 17:24:15] "GET /addresses/ HTTP/1.1" 200 1528
+[05/Jun/2025 17:24:15] "GET /guardians/ HTTP/1.1" 200 1029
+[05/Jun/2025 17:24:15] "GET /personas/ HTTP/1.1" 200 5152
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 200 483
+Unauthorized: /auth/refresh/
+Unauthorized: /auth/refresh/
+[05/Jun/2025 17:24:15] "POST /auth/refresh/ HTTP/1.1" 401 58
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 17:24:16] "GET /addresses/ HTTP/1.1" 200 1528
+[05/Jun/2025 17:24:16] "GET /guardians/ HTTP/1.1" 200 1029
+[05/Jun/2025 17:24:16] "GET /personas/ HTTP/1.1" 200 5152
+[05/Jun/2025 17:24:16] "GET /user-data/ HTTP/1.1" 200 3587
+[05/Jun/2025 17:24:16] "GET /registration-data/ HTTP/1.1" 200 1610
+User fer.magalhaes009@gmail.com is creating/updating a user profile
+Invalid user profile data: {'cpf': [ErrorDetail(string='CPF must be in the format 000.000.000-00', code='invalid')]}
+Invalid user profile data: {'cpf': [ErrorDetail(string='CPF must be in the format 000.000.000-00', code='invalid')]}
+Bad Request: /user-profile/
+Bad Request: /user-profile/
+[05/Jun/2025 17:24:25] "POST /user-profile/ HTTP/1.1" 400 52
+User fer.magalhaes009@gmail.com is creating/updating a user profile
+[05/Jun/2025 17:24:36] "POST /user-profile/ HTTP/1.1" 200 308
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 17:24:41] "GET /user-profile/ HTTP/1.1" 200 310
+[05/Jun/2025 17:25:00] "OPTIONS /auth/login/ HTTP/1.1" 200 0
+[05/Jun/2025 17:25:00] "POST /auth/login/ HTTP/1.1" 200 579
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:25:02] "GET /user-data/ HTTP/1.1" 200 3587
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:25:02] "GET /addresses/ HTTP/1.1" 200 1528
+[05/Jun/2025 17:25:02] "GET /guardians/ HTTP/1.1" 200 1029
+[05/Jun/2025 17:25:02] "GET /registration-data/ HTTP/1.1" 200 1610
+[05/Jun/2025 17:25:02] "GET /addresses/ HTTP/1.1" 200 1528
+[05/Jun/2025 17:25:02] "GET /user-data/ HTTP/1.1" 200 3587
+[05/Jun/2025 17:25:02] "GET /personas/ HTTP/1.1" 200 5152
+[05/Jun/2025 17:25:02] "GET /registration-data/ HTTP/1.1" 200 1610
+[05/Jun/2025 17:25:02] "GET /guardians/ HTTP/1.1" 200 1029
+[05/Jun/2025 17:25:02] "GET /addresses/ HTTP/1.1" 200 1528
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:25:03] "GET /guardians/ HTTP/1.1" 200 1029
+[05/Jun/2025 17:25:03] "GET /addresses/ HTTP/1.1" 200 1528
+[05/Jun/2025 17:25:03] "GET /registration-data/ HTTP/1.1" 200 1610
+[05/Jun/2025 17:25:03] "GET /user-data/ HTTP/1.1" 200 3587
+[05/Jun/2025 17:25:03] "GET /registration-data/ HTTP/1.1" 200 1610
+[05/Jun/2025 17:25:03] "GET /guardians/ HTTP/1.1" 200 1029
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:25:03] "GET /personas/ HTTP/1.1" 200 5152
+[05/Jun/2025 17:25:03] "GET /user-data/ HTTP/1.1" 200 3587
+[05/Jun/2025 17:25:03] "GET /personas/ HTTP/1.1" 200 5152
+[05/Jun/2025 17:25:03] "GET /personas/ HTTP/1.1" 200 5152
+User gabrielfonseca@ptec.dev is creating/updating a user profile
+[05/Jun/2025 17:26:42] "POST /user-profile/ HTTP/1.1" 201 307
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:26:46] "GET /user-profile/ HTTP/1.1" 200 618
+[05/Jun/2025 17:27:20] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 17:27:20] "GET /swagger/?format=openapi HTTP/1.1" 200 62277
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 17:27:21] "GET /swagger/?format=openapi HTTP/1.1" 200 62277
+[05/Jun/2025 17:27:22] "GET /admin/ HTTP/1.1" 200 15046
+[05/Jun/2025 17:27:25] "GET /admin/auth/user/ HTTP/1.1" 200 21921
+[05/Jun/2025 17:27:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 17:27:31] "GET /admin/auth/user/4/change/ HTTP/1.1" 200 32274
+[05/Jun/2025 17:27:31] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 17:27:41] "POST /admin/auth/user/4/change/ HTTP/1.1" 302 0
+[05/Jun/2025 17:27:41] "GET /admin/auth/user/ HTTP/1.1" 200 22132
+[05/Jun/2025 17:27:41] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:27:44] "GET /user-profile/ HTTP/1.1" 200 618
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:27:47] "GET /user-profile/ HTTP/1.1" 200 618
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:28:27] "GET /user-data/ HTTP/1.1" 200 3587
+[05/Jun/2025 17:29:18] "OPTIONS /auth/login/ HTTP/1.1" 200 0
+Bad Request: /auth/login/
+Bad Request: /auth/login/
+[05/Jun/2025 17:29:18] "POST /auth/login/ HTTP/1.1" 400 48
+[05/Jun/2025 17:29:21] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 17:29:22] "GET /swagger/?format=openapi HTTP/1.1" 200 62277
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 17:29:23] "GET /swagger/?format=openapi HTTP/1.1" 200 62277
+Bad Request: /auth/login/
+Bad Request: /auth/login/
+[05/Jun/2025 17:29:25] "POST /auth/login/ HTTP/1.1" 400 48
+Bad Request: /auth/login/
+Bad Request: /auth/login/
+[05/Jun/2025 17:29:27] "POST /auth/login/ HTTP/1.1" 400 48
+[05/Jun/2025 17:29:40] "POST /auth/login/ HTTP/1.1" 200 593
+[05/Jun/2025 17:29:40] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 17:29:40] "OPTIONS /personas/ HTTP/1.1" 200 0
+[05/Jun/2025 17:29:40] "GET /personas/ HTTP/1.1" 200 2
+[05/Jun/2025 17:29:40] "GET /personas/ HTTP/1.1" 200 2
+[05/Jun/2025 17:29:54] "OPTIONS /user-data/ HTTP/1.1" 200 0
+User in get_queryset: testemerito3@teste.com, is_authenticated: True
+[05/Jun/2025 17:29:54] "GET /user-data/ HTTP/1.1" 200 319
+[05/Jun/2025 17:29:54] "POST /personas/ HTTP/1.1" 201 636
+[05/Jun/2025 17:29:55] "OPTIONS /academic-merit/ HTTP/1.1" 200 0
+[05/Jun/2025 17:29:55] "OPTIONS /academic-merit/ HTTP/1.1" 200 0
+Not Found: /academic-merit/
+Not Found: /academic-merit/
+[05/Jun/2025 17:29:55] "GET /academic-merit/ HTTP/1.1" 404 23626
+Not Found: /academic-merit/
+Not Found: /academic-merit/
+[05/Jun/2025 17:29:55] "GET /academic-merit/ HTTP/1.1" 404 23626
+User in get_queryset: testemerito3@teste.com, is_authenticated: True
+[05/Jun/2025 17:30:01] "GET /user-data/ HTTP/1.1" 200 319
+User in get_queryset: testemerito3@teste.com, is_authenticated: True
+[05/Jun/2025 17:30:01] "OPTIONS /exam-scheduling/hours/ HTTP/1.1" 200 0
+[05/Jun/2025 17:30:01] "GET /user-data/ HTTP/1.1" 200 319
+[05/Jun/2025 17:30:01] "GET /exam-scheduling/hours/ HTTP/1.1" 200 585
+[05/Jun/2025 17:30:01] "GET /exam-scheduling/hours/ HTTP/1.1" 200 585
+Not Found: /academic-merit/
+Not Found: /academic-merit/
+[05/Jun/2025 17:30:04] "GET /academic-merit/ HTTP/1.1" 404 23626
+Not Found: /academic-merit/
+Not Found: /academic-merit/
+[05/Jun/2025 17:30:04] "GET /academic-merit/ HTTP/1.1" 404 23626
+User in get_queryset: testemerito3@teste.com, is_authenticated: True
+[05/Jun/2025 17:30:29] "GET /user-data/ HTTP/1.1" 200 319
+User in get_queryset: testemerito3@teste.com, is_authenticated: True
+[05/Jun/2025 17:30:29] "GET /user-data/ HTTP/1.1" 200 319
+[05/Jun/2025 17:30:29] "GET /exam-scheduling/hours/ HTTP/1.1" 200 585
+[05/Jun/2025 17:30:29] "GET /exam-scheduling/hours/ HTTP/1.1" 200 585
+Not Found: /academic-merit/
+Not Found: /academic-merit/
+[05/Jun/2025 17:30:31] "GET /academic-merit/ HTTP/1.1" 404 23626
+Not Found: /academic-merit/
+Not Found: /academic-merit/
+[05/Jun/2025 17:30:31] "GET /academic-merit/ HTTP/1.1" 404 23626
+/opt/backoffice-api/user_profile/models.py changed, reloading.
+/opt/backoffice-api/user_profile/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:21:03
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/user_profile/serializers.py changed, reloading.
+/opt/backoffice-api/user_profile/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:33:03
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/user_profile/views.py changed, reloading.
+/opt/backoffice-api/user_profile/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:33:19
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:33:31
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:33:57] "GET /user-data/ HTTP/1.1" 200 3587
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:34:08] "GET /user-profile/ HTTP/1.1" 200 618
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:34:14] "GET /user-profile/ HTTP/1.1" 200 618
+[05/Jun/2025 17:34:24] "GET /admin/auth/user/ HTTP/1.1" 200 21921
+[05/Jun/2025 17:34:25] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 17:34:30] "GET /admin/auth/user/ HTTP/1.1" 200 21921
+[05/Jun/2025 17:34:30] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 17:34:32] "GET /admin/auth/user/ HTTP/1.1" 200 21921
+[05/Jun/2025 17:34:32] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 17:34:32] "GET /admin/auth/user/ HTTP/1.1" 200 21921
+[05/Jun/2025 17:34:33] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+[05/Jun/2025 17:34:35] "GET /admin/auth/user/1/change/ HTTP/1.1" 200 32289
+[05/Jun/2025 17:34:35] "GET /admin/jsi18n/ HTTP/1.1" 200 3343
+User in get_queryset: gabrielfonseca@ptec.dev, is_authenticated: True
+[05/Jun/2025 17:35:08] "GET /user-profile/ HTTP/1.1" 200 618
+[05/Jun/2025 17:35:51] "POST /auth/login/ HTTP/1.1" 200 582
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 17:36:03] "GET /user-profile/ HTTP/1.1" 200 618
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 17:36:06] "GET /user-profile/ HTTP/1.1" 200 618
+Method Not Allowed: /user-profile/
+Method Not Allowed: /user-profile/
+[05/Jun/2025 17:36:12] "DELETE /user-profile/ HTTP/1.1" 405 43
+User in get_queryset: fer.magalhaes009@gmail.com, is_authenticated: True
+[05/Jun/2025 17:36:16] "GET /user-profile/ HTTP/1.1" 200 618
+/opt/backoffice-api/user_profile/serializers.py changed, reloading.
+/opt/backoffice-api/user_profile/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:33:54
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/user_profile/views.py changed, reloading.
+/opt/backoffice-api/user_profile/views.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:38:10
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[05/Jun/2025 17:38:52] "GET /user-profile/ HTTP/1.1" 200 1062
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[05/Jun/2025 17:40:03] "PATCH /user-profile/1/ HTTP/1.1" 200 610
+Not Found: /favicon.ico
+Not Found: /favicon.ico
+[05/Jun/2025 17:43:56] "GET /favicon.ico HTTP/1.1" 404 24046
+Not Found: /academic-merit/
+Not Found: /academic-merit/
+[05/Jun/2025 17:44:23] "GET /academic-merit/ HTTP/1.1" 404 24058
+Not Found: /academic-merit/
+Not Found: /academic-merit/
+[05/Jun/2025 17:44:24] "GET /academic-merit/ HTTP/1.1" 404 24058
+[05/Jun/2025 17:45:36] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+[05/Jun/2025 17:45:37] "GET /swagger/?format=openapi HTTP/1.1" 500 239147
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+[05/Jun/2025 17:45:38] "GET /swagger/?format=openapi HTTP/1.1" 500 236590
+[05/Jun/2025 17:45:44] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+[05/Jun/2025 17:45:45] "GET /swagger/?format=openapi HTTP/1.1" 500 239147
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+Internal Server Error: /swagger/
+Traceback (most recent call last):
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/decorators/csrf.py", line 56, in wrapper_view
+    return view_func(*args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/django/views/generic/base.py", line 104, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/rest_framework/views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/views.py", line 112, in get
+    schema = generator.get_schema(request, self.public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 276, in get_schema
+    paths, prefix = self.get_paths(endpoints, components, request, public)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 482, in get_paths
+    operation = self.get_operation(view, path, prefix, method, components, request)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/generators.py", line 524, in get_operation
+    operation = view_inspector.get_operation(operation_keys)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 45, in get_operation
+    responses = self.get_responses()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 182, in get_responses
+    responses=self.get_response_schemas(response_serializers)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/view.py", line 271, in get_response_schemas
+    schema=self.serializer_to_schema(serializer),
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 438, in serializer_to_schema
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 49, in get_schema
+    return self.probe_field_inspectors(serializer, openapi.Schema, self.use_definitions)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 140, in field_to_swagger_object
+    actual_schema = definitions.setdefault(ref_name, make_schema_definition)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/openapi.py", line 685, in setdefault
+    ret = maker()
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 116, in make_schema_definition
+    child_schema = self.probe_field_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 228, in probe_field_inspectors
+    return self.probe_inspectors(
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/base.py", line 110, in probe_inspectors
+    result = method(obj, **kwargs)
+  File "/opt/backoffice-api/venv/lib/python3.8/site-packages/drf_yasg/inspectors/field.py", line 148, in field_to_swagger_object
+    raise SwaggerGenerationError(
+drf_yasg.errors.SwaggerGenerationError: Schema for <class 'seletivo.serializers.address_serializer.UserPublicSerializer'> would override distinct serializer <class 'user_profile.serializers.UserPublicSerializer'> because they implicitly share the same ref_name; explicitly set the ref_name attribute on both serializers' Meta classes
+[05/Jun/2025 17:45:46] "GET /swagger/?format=openapi HTTP/1.1" 500 236592
+[05/Jun/2025 17:46:02] "GET / HTTP/1.1" 200 8937
+/opt/backoffice-api/user_profile/models.py changed, reloading.
+/opt/backoffice-api/user_profile/models.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:39:25
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/user_profile/serializers.py changed, reloading.
+/opt/backoffice-api/user_profile/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:46:25
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+/opt/backoffice-api/user_profile/serializers.py changed, reloading.
+/opt/backoffice-api/user_profile/serializers.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:47:00
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+[05/Jun/2025 17:47:45] "GET /swagger/ HTTP/1.1" 200 1638
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 17:47:45] "GET /swagger/?format=openapi HTTP/1.1" 200 64062
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+User in get_queryset: AnonymousUser, is_authenticated: False
+[05/Jun/2025 17:47:46] "GET /swagger/?format=openapi HTTP/1.1" 200 64062
+/opt/backoffice-api/seletivo/serializers/address_serializer.py changed, reloading.
+/opt/backoffice-api/seletivo/serializers/address_serializer.py changed, reloading.
+Performing system checks...
+
+System check identified no issues (0 silenced).
+June 05, 2025 - 17:47:15
+Django version 4.2.21, using settings 'core.settings'
+Starting development server at http://0.0.0.0:7000/
+Quit the server with CONTROL-C.
+
+Watching for file changes with StatReloader
+Watching for file changes with StatReloader
+User in get_queryset: testemerito3@teste.com, is_authenticated: True
+[05/Jun/2025 17:49:20] "GET /user-data/ HTTP/1.1" 200 319
+User in get_queryset: testemerito3@teste.com, is_authenticated: True
+[05/Jun/2025 17:49:20] "GET /user-data/ HTTP/1.1" 200 319
+[05/Jun/2025 17:49:20] "GET /exam-scheduling/hours/ HTTP/1.1" 200 585
+[05/Jun/2025 17:49:20] "GET /exam-scheduling/hours/ HTTP/1.1" 200 585
+Not Found: /academic-merit/
+Not Found: /academic-merit/
+[05/Jun/2025 17:49:26] "GET /academic-merit/ HTTP/1.1" 404 24058
+Not Found: /academic-merit/
+Not Found: /academic-merit/
+[05/Jun/2025 17:49:26] "GET /academic-merit/ HTTP/1.1" 404 24058
+[05/Jun/2025 17:49:56] "GET /user-profile/1 HTTP/1.1" 301 0
+User fer.magalhaes009@gmail.com is retrieving user profile
+[05/Jun/2025 17:49:56] "GET /user-profile/1/ HTTP/1.1" 200 610
+[05/Jun/2025 17:49:59] "GET /user-profile/ HTTP/1.1" 200 1147

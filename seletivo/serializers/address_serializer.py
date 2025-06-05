@@ -7,6 +7,7 @@ class UserPublicSerializer(serializers.ModelSerializer):
     class Meta:
         model = User
         fields = ['id', 'username', 'email', 'first_name', 'last_name']
+        ref_name = 'AddressUserPublic'
 
 
 class AddressSerializer(serializers.ModelSerializer):

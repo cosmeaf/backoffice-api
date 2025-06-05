@@ -17,7 +17,7 @@ django-admin startproject core .
 # Criar a aplicação API
 python manage.py startapp authentication
 python manage.py startapp services
-python manage.py startapp seletivo
+python manage.py startapp candidate
 
 # Criar um diretório para logs (opcional)
 mkdir logs

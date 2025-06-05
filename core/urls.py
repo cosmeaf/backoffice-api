@@ -32,6 +32,8 @@ from seletivo.views.exam_scheduled_view import (
 )
 from enem.views import EnemResultViewSet
 from merito_academico.views import RecommendationLetterViewSet, AcademicMeritDocumentViewSet
+from candidate.views.candidate_document_view import CandidateDocumentViewSet
+from user_profile.views import UserProfileViewSet
 
 # Swagger
 schema_view = get_schema_view(
@@ -76,6 +78,11 @@ router.register(r'enem', EnemResultViewSet, basename='enem')
 # ROTAS MERITO ACADEMICO
 router.register(r'merito', RecommendationLetterViewSet, basename='merito')
 router.register(r'academic-merit/document', AcademicMeritDocumentViewSet, basename='academic-merit-document')
+
+# ROTAS USER PROFILE
+router.register(r'user-profile', UserProfileViewSet)
+# ROTAS CANDIDATE
+router.register(r'candidate-documents', CandidateDocumentViewSet, basename='candidate-documents')
 
 # URL patterns
 urlpatterns = [
