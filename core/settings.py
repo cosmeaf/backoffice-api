@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'merito_academico',
     'candidate',
     'user_profile',
+    'student_data',
 ]
 
 MIDDLEWARE = [

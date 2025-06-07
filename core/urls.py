@@ -34,6 +34,7 @@ from enem.views import EnemResultViewSet
 from merito_academico.views import RecommendationLetterViewSet, AcademicMeritDocumentViewSet
 from candidate.views.candidate_document_view import CandidateDocumentViewSet
 from user_profile.views import UserProfileViewSet
+from student_data.views.student_view import StudentDataViewSet
 
 # Swagger
 schema_view = get_schema_view(
@@ -81,8 +82,13 @@ router.register(r'academic-merit/document', AcademicMeritDocumentViewSet, basena
 
 # ROTAS USER PROFILE
 router.register(r'user-profile', UserProfileViewSet)
+
 # ROTAS CANDIDATE
 router.register(r'candidate-documents', CandidateDocumentViewSet, basename='candidate-documents')
+
+# ROTAS do app student data
+router.register(r'student-data', StudentDataViewSet, basename='student-data')
+
 
 # URL patterns
 urlpatterns = [
