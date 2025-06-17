@@ -7,18 +7,11 @@ from decouple import config
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = config('SECRET_KEY', default='django-insecure-1#*3xb2bg)2pr%puh&^x+uj%onhdybr97krs*+i(k*ocp&9av9')
+SECRET_KEY = config('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG', default=True, cast=bool)
-
-ALLOWED_HOSTS = [
-    'backoffice-api.pdinfinita.dev',
-    '.pdinfinita.dev',
-    'localhost',
-    '127.0.0.1',
-    '145.223.92.122',
-]
+DEBUG = config('DEBUG', default=False, cast=bool)
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', default='localhost,127.0.0.1,backoffice-api.pdinfinita.dev', cast=lambda x: x.split(','))
 
 SITE_URL = 'https://backoffice-api.pdinfinita.dev'
 
@@ -82,12 +75,22 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # Database
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': config('DB_NAME'),
+        'USER': config('DB_USER'),
+        'PASSWORD': config('DB_PASSWORD'),
+        'HOST': config('DB_HOST'),
     }
 }
 
-# Password validation
+# DATABASES = {
+#   'default': {
+#        'ENGINE': 'django.db.backends.sqlite3',
+#        'NAME': BASE_DIR / 'db.sqlite3',
+#    }
+# }
+
+
 AUTH_PASSWORD_VALIDATORS = [
     {
         'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
@@ -130,14 +133,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # CORS Configuration
 CORS_ALLOW_ALL_ORIGINS = True
-# CORS_ALLOWED_ORIGINS = [
-#     'https://backoffice-api.pdinfinita.dev',
-#     'https://pdinfinita.dev',
-#     'http://localhost:7000',
-#     'http://127.0.0.1:7000',
-#     'http://10.0.0.13:4200',
-#     'https://10.0.0.13',
-# ]
 
 # REST Framework
 REST_FRAMEWORK = {
@@ -174,14 +169,14 @@ EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 EMAIL_USE_SSL = False
-EMAIL_HOST_USER = config('EMAIL_HOST_USER', default='cosmeaf@gmail.com')
-EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD', default='mwarmlzamenmlwmk')
+EMAIL_HOST_USER = config('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = config('EMAIL_HOST_PASSWORD')
 DEFAULT_FROM_EMAIL = EMAIL_HOST_USER
 EMAIL_TIMEOUT = 30
 
 # Celery Configuration
-CELERY_BROKER_URL = 'redis://localhost:6379/0'
-CELERY_RESULT_BACKEND = 'redis://localhost:6379/0'
+CELERY_BROKER_URL = config('CELERY_BROKER_URL')
+CELERY_RESULT_BACKEND = config('CELERY_RESULT_BACKEND')
 CELERY_ACCEPT_CONTENT = ['json']
 CELERY_TASK_SERIALIZER = 'json'
 CELERY_RESULT_SERIALIZER = 'json'
@@ -190,7 +185,7 @@ CELERY_RESULT_BACKEND_ALWAYS_RETRY = True
 CELERY_RESULT_BACKEND_MAX_RETRIES = 3
 
 # API Key
-API_KEY = config('API_KEY', default='your-secure-api-key')
+API_KEY = config('API_KEY')
 
 # Logging
 LOGGING = {
@@ -200,7 +195,7 @@ LOGGING = {
         'file': {
             'level': 'ERROR',
             'class': 'logging.FileHandler',
-            'filename': '/opt/backoffice-api/logs/manager.log',
+            'filename': config('LOG_FILE', default='/opt/backoffice-api/logs/manager.log'),
         },
         'console': {
             'level': 'DEBUG',
