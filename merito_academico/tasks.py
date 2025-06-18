@@ -1,11 +1,11 @@
 from celery import shared_task
 import os
-from .utils.generate_docx import generate_docx_and_pdf
+from .utils.generate_docx import generate_docx
 
 @shared_task
 def generate_recommendation_letter_task(data):
     """Generate recommendation letter as a PDF and save it temporarily."""
-    temp_docx_path, pdf_path, pdf_filename = generate_docx_and_pdf(data)
+    temp_docx_path, pdf_path, pdf_filename = generate_docx(data)
     
     # Read PDF content
     with open(pdf_path, 'rb') as pdf_file:
