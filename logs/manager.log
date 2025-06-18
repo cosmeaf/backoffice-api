@@ -52965,3 +52965,267 @@ Traceback (most recent call last):
   File "/app/merito_academico/tasks.py", line 3, in <module>
     from .utils.generate_docx import generate_docx_and_pdf
 ImportError: cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)
+Signal handler <promise@0x7f5804304ea0 --> <bound method Celery._autodiscover_tasks of <Celery core at 0x7f58059f38b0>>> raised: ImportError("cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/utils/dispatch/signal.py", line 280, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 161, in __call__
+    return self.throw()
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 788, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 797, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 792, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    return importlib.import_module(module_name)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/merito_academico/tasks.py", line 3, in <module>
+    from .utils.generate_docx import generate_docx_and_pdf
+ImportError: cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)
+Signal handler <promise@0x7f9a60950ea0 --> <bound method Celery._autodiscover_tasks of <Celery core at 0x7f9a61fef8b0>>> raised: ImportError("cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/utils/dispatch/signal.py", line 280, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 161, in __call__
+    return self.throw()
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 788, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 797, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 792, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    return importlib.import_module(module_name)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/merito_academico/tasks.py", line 3, in <module>
+    from .utils.generate_docx import generate_docx_and_pdf
+ImportError: cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)
+Signal handler <promise@0x7efc7cb68ea0 --> <bound method Celery._autodiscover_tasks of <Celery core at 0x7efc7e2578b0>>> raised: ImportError("cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/utils/dispatch/signal.py", line 280, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 161, in __call__
+    return self.throw()
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 788, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 797, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 792, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    return importlib.import_module(module_name)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/merito_academico/tasks.py", line 3, in <module>
+    from .utils.generate_docx import generate_docx_and_pdf
+ImportError: cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)
+Signal handler <promise@0x7f654e8b0ea0 --> <bound method Celery._autodiscover_tasks of <Celery core at 0x7f654ff478b0>>> raised: ImportError("cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/utils/dispatch/signal.py", line 280, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 161, in __call__
+    return self.throw()
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 788, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 797, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 792, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    return importlib.import_module(module_name)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/merito_academico/tasks.py", line 3, in <module>
+    from .utils.generate_docx import generate_docx_and_pdf
+ImportError: cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)
+Signal handler <promise@0x7f5bdcfa8ea0 --> <bound method Celery._autodiscover_tasks of <Celery core at 0x7f5bde68b8b0>>> raised: ImportError("cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/utils/dispatch/signal.py", line 280, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 161, in __call__
+    return self.throw()
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 788, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 797, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 792, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    return importlib.import_module(module_name)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/merito_academico/tasks.py", line 3, in <module>
+    from .utils.generate_docx import generate_docx_and_pdf
+ImportError: cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)
+Signal handler <promise@0x7f66b1574ea0 --> <bound method Celery._autodiscover_tasks of <Celery core at 0x7f66b2c038b0>>> raised: ImportError("cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/utils/dispatch/signal.py", line 280, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 161, in __call__
+    return self.throw()
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 788, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 797, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 792, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    return importlib.import_module(module_name)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/merito_academico/tasks.py", line 3, in <module>
+    from .utils.generate_docx import generate_docx_and_pdf
+ImportError: cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)
+Signal handler <promise@0x7fee1448cea0 --> <bound method Celery._autodiscover_tasks of <Celery core at 0x7fee15b7b8b0>>> raised: ImportError("cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/utils/dispatch/signal.py", line 280, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 161, in __call__
+    return self.throw()
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 788, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 797, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 792, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    return importlib.import_module(module_name)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/merito_academico/tasks.py", line 3, in <module>
+    from .utils.generate_docx import generate_docx_and_pdf
+ImportError: cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)
+Signal handler <promise@0x7f76640ecea0 --> <bound method Celery._autodiscover_tasks of <Celery core at 0x7f76657838b0>>> raised: ImportError("cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)")
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/site-packages/celery/utils/dispatch/signal.py", line 280, in send
+    response = receiver(signal=self, sender=sender, **named)
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 161, in __call__
+    return self.throw()
+  File "/usr/local/lib/python3.10/site-packages/vine/promises.py", line 158, in __call__
+    retval = fun(*final_args, **final_kwargs)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 788, in _autodiscover_tasks
+    return self._autodiscover_tasks_from_fixups(related_name)
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 797, in _autodiscover_tasks_from_fixups
+    return self._autodiscover_tasks_from_names([
+  File "/usr/local/lib/python3.10/site-packages/celery/app/base.py", line 792, in _autodiscover_tasks_from_names
+    return self.loader.autodiscover_tasks(
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 220, in autodiscover_tasks
+    mod.__name__ for mod in autodiscover_tasks(packages or (),
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in autodiscover_tasks
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 246, in <listcomp>
+    return [find_related_module(pkg, related_name) for pkg in packages]
+  File "/usr/local/lib/python3.10/site-packages/celery/loaders/base.py", line 270, in find_related_module
+    return importlib.import_module(module_name)
+  File "/usr/local/lib/python3.10/importlib/__init__.py", line 126, in import_module
+    return _bootstrap._gcd_import(name[level:], package, level)
+  File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+  File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+  File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+  File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+  File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+  File "/app/merito_academico/tasks.py", line 3, in <module>
+    from .utils.generate_docx import generate_docx_and_pdf
+ImportError: cannot import name 'generate_docx_and_pdf' from 'merito_academico.utils.generate_docx' (/app/merito_academico/utils/generate_docx.py)
