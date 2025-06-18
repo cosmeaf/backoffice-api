@@ -4,9 +4,9 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-    command: gunicorn core.wsgi:application --bind 0.0.0.0:7000
+    command: gunicorn core.wsgi:application --bind 0.0.0.0:6999
     ports:
-      - "7000:7000"
+      - "6999:7000"
     env_file:
       - .env
     volumes:
