@@ -55,7 +55,7 @@ class StudentDataViewSet(viewsets.ModelViewSet):
         return StudentDataSerializer
 
     @swagger_auto_schema(
-        operation_description="Create or update a student data profile. Only authenticated users can create/update their own profile. Admins can specify a user_data ID.",
+        operation_description="Create or update a student data profile. Only authenticated users can create/update their own profile. Admins can specify a user_data ID. All fields (registration, corp_email, monitor, status) are editable.",
         request_body=StudentDataSerializer,
         responses={
             201: StudentDataDetailSerializer,
@@ -93,7 +93,45 @@ class StudentDataViewSet(viewsets.ModelViewSet):
         return super().retrieve(request, *args, **kwargs)
 
     @swagger_auto_schema(
-        operation_description="Batch create or update student data profiles. Admins can specify user_data IDs; non-staff users can only create their own profile.",
+        operation_description="Update a student data profile. Only the owner or admin can update. All fields (registration, corp_email, monitor, status) are editable.",
+        request_body=StudentDataDetailSerializer,
+        responses={
+            200: StudentDataDetailSerializer,
+            400: openapi.Response("Bad Request", examples={"application/json": {"error": "Invalid data"}}),
+            401: openapi.Response("Unauthorized", examples={"application/json": {"detail": "Authentication credentials were not provided."}}),
+            403: openapi.Response("Forbidden", examples={"application/json": {"detail": "You do not have permission to perform this action."}}),
+            404: openapi.Response("Not Found", examples={"application/json": {"detail": "Not found."}})
+        }
+    )
+    def update(self, request, *args, **kwargs):
+        try:
+            logger.info(f"User {request.user} is updating student data profile")
+            return super().update(request, *args, **kwargs)
+        except Exception as e:
+            logger.error(f"Error updating student data for user {request.user}: {str(e)}")
+            return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+    @swagger_auto_schema(
+        operation_description="Partially update a student data profile. Only the owner or admin can update. All fields (registration, corp_email, monitor, status) are editable.",
+        request_body=StudentDataDetailSerializer,
+        responses={
+            200: StudentDataDetailSerializer,
+            400: openapi.Response("Bad Request", examples={"application/json": {"error": "Invalid data"}}),
+            401: openapi.Response("Unauthorized", examples={"application/json": {"detail": "Authentication credentials were not provided."}}),
+            403: openapi.Response("Forbidden", examples={"application/json": {"detail": "You do not have permission to perform this action."}}),
+            404: openapi.Response("Not Found", examples={"application/json": {"detail": "Not found."}})
+        }
+    )
+    def partial_update(self, request, *args, **kwargs):
+        try:
+            logger.info(f"User {request.user} is partially updating student data profile")
+            return super().partial_update(request, *args, **kwargs)
+        except Exception as e:
+            logger.error(f"Error partially updating student data for user {request.user}: {str(e)}")
+            return Response({"error": str(e)}, status=status.HTTP_400_BAD_REQUEST)
+
+    @swagger_auto_schema(
+        operation_description="Batch create or update student data profiles. Admins can specify user_data IDs; non-staff users can only create their own profile. All fields (registration, corp_email, monitor, status) are editable.",
         request_body=BatchStudentDataSerializer,
         responses={
             201: StudentDataDetailSerializer(many=True),

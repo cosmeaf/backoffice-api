@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 class UserDataPublicSerializer(serializers.ModelSerializer):
     class Meta:
         model = UserData
-        fields = ['id', 'user']  # Ajuste com os campos reais do UserData
+        fields = ['id', 'user']
         ref_name = 'StudentDataUserDataPublic'
 
 class StudentDataSerializer(serializers.ModelSerializer):
@@ -18,7 +18,9 @@ class StudentDataSerializer(serializers.ModelSerializer):
     )
     user_data_display = serializers.SerializerMethodField(read_only=True)
     registration = serializers.CharField(max_length=20)
+    corp_email = serializers.EmailField()
     monitor = serializers.CharField(max_length=100, allow_blank=True, default='')
+    status = serializers.CharField(max_length=50, allow_blank=True, default='active')
 
     class Meta:
         model = StudentData
@@ -41,12 +43,6 @@ class StudentDataSerializer(serializers.ModelSerializer):
             raise serializers.ValidationError("Invalid corporate email format")
         return value
 
-    def validate_status(self, value):
-        valid_statuses = ['active', 'inactive', 'suspended']
-        if value not in valid_statuses:
-            raise serializers.ValidationError(f"Status must be one of: {', '.join(valid_statuses)}")
-        return value
-
     def get_user_data_display(self, obj):
         if obj.user_data:
             return UserDataPublicSerializer(obj.user_data).data
@@ -65,10 +61,20 @@ class StudentDataSerializer(serializers.ModelSerializer):
             logger.error(f"Error creating student data: {str(e)}")
             raise serializers.ValidationError({"error": str(e)})
 
+    def update(self, instance, validated_data):
+        try:
+            logger.info(f"Updating student data with validated data: {validated_data}")
+            return super().update(instance, validated_data)
+        except Exception as e:
+            logger.error(f"Error updating student data: {str(e)}")
+            raise serializers.ValidationError({"error": str(e)})
+
 class StudentDataDetailSerializer(serializers.ModelSerializer):
     user_data = UserDataPublicSerializer(read_only=True)
-    registration = serializers.CharField(max_length=20, read_only=True)
-    monitor = serializers.CharField(max_length=100, allow_blank=True, read_only=True)
+    registration = serializers.CharField(max_length=20)
+    corp_email = serializers.EmailField()
+    monitor = serializers.CharField(max_length=100, allow_blank=True, default='')
+    status = serializers.CharField(max_length=50, allow_blank=True, default='active')
 
     class Meta:
         model = StudentData
@@ -76,7 +82,7 @@ class StudentDataDetailSerializer(serializers.ModelSerializer):
             'id', 'user_data', 'registration', 'corp_email',
             'monitor', 'status'
         ]
-        read_only_fields = ['id', 'user_data', 'registration', 'monitor']
+        read_only_fields = ['id', 'user_data']
         ref_name = 'StudentDataDetailSerializer'
 
 class BatchStudentDataSerializer(serializers.ListSerializer):

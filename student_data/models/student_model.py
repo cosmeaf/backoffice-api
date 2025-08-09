@@ -30,11 +30,7 @@ class StudentData(models.Model):
     )
     status = models.CharField(
         max_length=50,
-        choices=[
-            ('active', 'Active'),
-            ('inactive', 'Inactive'),
-            ('suspended', 'Suspended')
-        ],
+        blank=True,
         default='active',
         help_text="The student's account status."
     )

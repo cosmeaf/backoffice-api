@@ -35,6 +35,8 @@ from merito_academico.views import RecommendationLetterViewSet, AcademicMeritDoc
 from candidate.views.candidate_document_view import CandidateDocumentViewSet
 from user_profile.views import UserProfileViewSet
 from student_data.views.student_view import StudentDataViewSet
+from psychologist.views.psychologist_view import PsychologistViewSet
+
 
 # Swagger
 schema_view = get_schema_view(
@@ -89,6 +91,8 @@ router.register(r'candidate-documents', CandidateDocumentViewSet, basename='cand
 # ROTAS do app student data
 router.register(r'student-data', StudentDataViewSet, basename='student-data')
 
+# ROTAS do app psychologist
+router.register(r'psychologists', PsychologistViewSet, basename='psychologist')
 
 # URL patterns
 urlpatterns = [

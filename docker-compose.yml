@@ -1,70 +1,13 @@
 services:
-  web:
-    container_name: backoffice-api
-    build:
-      context: .
-      dockerfile: Dockerfile
-    command: gunicorn core.wsgi:application --bind 0.0.0.0:6999
-    ports:
-      - "6999:7000"
-    env_file:
-      - .env
-    volumes:
-      - .:/app
-      - ./logs:/opt/backoffice-api/logs
-    networks:
-      app-network:
-        ipv4_address: 172.16.0.40
-    restart: always
-    depends_on:
-      - redis
-
-  celery:
-    container_name: backoffice-celery
-    build:
-      context: .
-      dockerfile: Dockerfile
-    command: celery -A core worker --loglevel=info
-    volumes:
-      - .:/app
-      - ./logs:/opt/backoffice-api/logs
-    env_file:
-      - .env
-    networks:
-      app-network:
-        ipv4_address: 172.16.0.41
-    restart: always
-    depends_on:
-      - redis
-
-  beat:
-    container_name: backoffice-beat
-    build:
-      context: .
-      dockerfile: Dockerfile
-    command: celery -A core beat --loglevel=info
-    volumes:
-      - .:/app
-      - ./logs:/opt/backoffice-api/logs
-    env_file:
-      - .env
-    networks:
-      app-network:
-        ipv4_address: 172.16.0.42
-    restart: always
-    depends_on:
-      - redis
-
   redis:
     container_name: backoffice-redis
     image: redis:7-alpine
     ports:
-      - "6384:6379"
+      - "6480:6379"
     volumes:
       - redis-data:/data
     networks:
-      app-network:
-        ipv4_address: 172.16.0.43
+      - app-network
     restart: always
 
 volumes:
@@ -72,5 +15,4 @@ volumes:
 
 networks:
   app-network:
-    external: true
-    name: app-network
+    driver: bridge
